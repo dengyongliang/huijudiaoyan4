@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.pageQuotaSet .pageT{
+  padding: 27px 0px;
+  font-size: 16px;
+}
+.pageQuotaSet .pageT>span{
+  padding: 0 20px 0 0;
+  font-weight: 200;
+}
+.pageQuotaSet .el-container .el-aside{
+  width: 260px;
+  padding: 25px 0;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(255,255,255,1) 1%, rgba(243,243,243,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 1%,rgba(243,243,243,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(255,255,255,1) 1%,rgba(243,243,243,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=1 ); /* IE6-9 */
+}
+.pageQuotaSet .el-container .el-aside strong{
+  text-align: center;
+  display: block;
+  font-weight: 200;
+}
+.pageQuotaSet .el-container .el-aside ul{
+  padding: 20px;
+  margin: 0px;
+}
+.pageQuotaSet .el-container .el-aside li{
+  list-style: none;
+  padding-bottom: 15px;
+}
+.pageQuotaSet .el-container .el-aside button{
+  width: 100%;
+}
+.pageQuotaSet .el-container .el-main{
+  padding: 25px 0;
+  background: #fff;
+}
+.pageQuotaSet .el-container .el-main .filter .select{
+  position: relative;
+  padding-right: 44px;
+}
+.pageQuotaSet .el-container .el-main .filter .el-select {
+  display: block;
+}
+.pageQuotaSet .el-container .el-main .filter .el-select input{
+  height: 42px;
+  line-height:42px;
+}
+.pageQuotaSet .el-container .el-main .filter .select .close{
+  width: 42px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  line-height: 40px;
+  text-align: center;
+  font-size: 33px;
+  position: absolute;
+  right: 2px;
+  top: 0px;
+  background: #fafafa;
+  font-weight: 200;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #999999;
+}
+.pageQuotaSet .el-container .el-main .n{
+  text-align: right;
+  font-size: 14px;
+  line-height: 40px;
+}
+.pageQuotaSet .el-container .el-main .btn{
+  text-align: center;
+  padding: 30px 0;
+}
+.pageQuotaSet .el-container .el-main strong{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.pageQuotaSet .table {
+  padding: 20px;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  
+}

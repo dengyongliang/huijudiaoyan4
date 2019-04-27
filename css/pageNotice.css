@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.pageNotice ul{
+  padding: 20px 30px;
+  margin: 0px;
+}
+.pageNotice li{
+  list-style: none;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.pageNotice li h3{
+  font-size: 17px;
+  font-weight: 200;
+}
+.pageNotice li p{
+  font-size: 15px;
+  color: #273c3d;
+  margin-bottom: 0px;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  
+}

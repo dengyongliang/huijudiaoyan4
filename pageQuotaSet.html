@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>主页</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="css/pageQuotaSet.css">
+</head>
+<body>
+  <div class="pageQuotaSet">
+    <div class="pageT">
+      <span>项目：百度feed流</span>
+      <span>任务：第一周任务</span>
+    </div>
+    <section class="el-container">
+      <aside class="el-aside">
+        <strong>请选择配额项</strong>
+        <ul>
+          <li><button type="button" class="el-button el-button--default"><span>城市级别</span></button></li>
+          <li><button type="button" class="el-button el-button--default"><span>年龄段选择</span></button></li>
+          <li><button type="button" class="el-button el-button--default"><span>性别选择</span></button></li>
+        </ul>
+      </aside>
+      <main class="el-main">
+        <strong>请选择配额内容</strong>
+        <div class="filter">
+            <div class="el-row">
+              <div class="el-col el-col-3 n">
+                <div class="grid-content">
+                  城市级别：
+                </div>
+              </div>
+              <div class="el-col el-col-5">
+                <div class="grid-content">
+                  <div class="select">
+                      <div class="el-select">
+                          <div class="el-input el-input--suffix">
+                            <input autocomplete="off" placeholder="请选择" size="" readonly="readonly" type="text" rows="2"
+                              class="el-input__inner">
+                            <span class="el-input__suffix">
+                              <span class="el-input__suffix-inner">
+                                <i class="el-select__caret el-input__icon el-icon-arrow-up is-reverse"></i>
+                              </span>
+                            </span>
+                          </div>
+                      </div>
+                      <div class="close">×</div>
+                  </div>
+                </div>
+              </div>
+              <div class="el-col el-col-3 n">
+                <div class="grid-content">
+                  年龄段：
+                </div>
+              </div>
+              <div class="el-col el-col-5">
+                <div class="grid-content">
+                  <div class="select">
+                      <div class="el-select">
+                          <div class="el-input el-input--suffix">
+                            <input autocomplete="off" placeholder="请选择" size="" readonly="readonly" type="text" rows="2"
+                              class="el-input__inner">
+                            <span class="el-input__suffix">
+                              <span class="el-input__suffix-inner">
+                                <i class="el-select__caret el-input__icon el-icon-arrow-up is-reverse"></i>
+                              </span>
+                            </span>
+                          </div>
+                      </div>
+                      <div class="close">×</div>
+                  </div>
+                </div>
+              </div>
+              <div class="el-col el-col-3 n">
+                <div class="grid-content">
+                  性别：
+                </div>
+              </div>
+              <div class="el-col el-col-5">
+                <div class="grid-content">
+                  <div class="select">
+                      <div class="el-select">
+                          <div class="el-input el-input--suffix">
+                            <input autocomplete="off" placeholder="请选择" size="" readonly="readonly" type="text" rows="2"
+                              class="el-input__inner">
+                            <span class="el-input__suffix">
+                              <span class="el-input__suffix-inner">
+                                <i class="el-select__caret el-input__icon el-icon-arrow-up is-reverse"></i>
+                              </span>
+                            </span>
+                          </div>
+                      </div>
+                      <div class="close">×</div>
+                  </div>
+                </div>
+              </div>
+              <div class="el-col el-col-24 btn">
+                <div class="grid-content">
+                  <button type="button" class="el-button el-button--primary"><span>生成配额表</span></button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <strong>配额情况统计表</strong>
+        <div class="table">
+          table组件
+        </div>
+        <div class="btn">
+            <button type="button" class="el-button el-button--primary"><span>保存配额</span></button>
+            <button type="button" class="el-button el-button--primary"><span>提交配额</span></button>
+            <button type="button" class="el-button el-button--default"><span>返回</span></button>
+        </div>
+      </main>
+    </section>
+  </div>
+</body>
+</html>

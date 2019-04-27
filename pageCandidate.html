@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>主页</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="css/pageCandidate.css">
+</head>
+<body>
+  <div class="pageCandidate">
+    <div class="pageT">
+      <span>项目：百度feed流</span>
+      <span>任务：第一周任务</span>
+      <button type="button" class="el-button el-button--default"><span>进行中</span></button>
+      <button type="button" class="el-button el-button--primary"><span>已完成</span></button>
+    </div>
+    <div class="filter">
+        <div class="el-row">
+          <div class="el-col el-col-4">
+            <div class="grid-content">
+              <div class="el-input">
+                <input autocomplete="off" placeholder="请输入用户名" type="text" class="el-input__inner">
+              </div>
+            </div>
+          </div>
+          <div class="el-col el-col-4">
+            <div class="grid-content">
+              <div class="el-input">
+                <input autocomplete="off" placeholder="请输入电话号码" type="text" class="el-input__inner">
+              </div>
+            </div>
+          </div>
+          <div class="el-col el-col-4">
+            <div class="grid-content">
+              <div class="el-date-editor el-input el-input--prefix el-input--suffix el-date-editor--date">
+                <input autocomplete="off" placeholder="选择日期" size="" name="" id="" type="text" rows="2"
+                  prefixicon="el-icon-date" class="el-input__inner">
+                <span class="el-input__prefix">
+                  <i class="el-input__icon el-icon-date"></i>
+                </span>
+                <span class="el-input__suffix">
+                  <span class="el-input__suffix-inner"><i class="el-input__icon"></i></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="el-col el-col-4">
+            <div class="grid-content">
+              <div class="el-select">
+                <div class="el-input el-input--suffix">
+                  <input autocomplete="off" placeholder="请选择" size="" readonly="readonly" type="text" rows="2"
+                    class="el-input__inner">
+                  <span class="el-input__suffix">
+                    <span class="el-input__suffix-inner">
+                      <i class="el-select__caret el-input__icon el-icon-arrow-up is-reverse"></i>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="el-col el-col-8">
+            <div class="grid-content">
+                <button type="button" class="el-button el-button--primary is-plain"><i class="el-icon-search"></i><span>搜索</span></button>
+                <button type="button" class="el-button el-button--default is-plain"><i class="el-icon-delete"></i><span>清空</span></button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="table">
+      <strong>配额情况</strong>
+      table组件
+    </div>
+
+  </div>
+</body>
+</html>

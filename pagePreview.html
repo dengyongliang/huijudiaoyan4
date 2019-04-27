@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>主页</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="css/pagePreview.css">
+</head>
+<body>
+  <div class="pagePreview">
+    <div class="tool">
+        <button type="button" class="el-button el-button--default"><span><i class="el-icon-view"></i>预览</span></button>
+        <button type="button" class="el-button el-button--default"><span><i class="el-icon-check"></i>关闭预览</span></button>
+    </div>
+    <div class="main">
+      <div class="previewDiv">
+        <div class="scroll">
+          <div class="quTitle">
+            <div class="preview">
+              <h1>调查问卷标题</h1>
+              <h3>副标题</h3>
+            </div>
+          </div>
+          <div class="quExplain">
+            <div class="preview">说明文字
+            </div>
+          </div>
+          <ul class="quList">
+            <li class="quRadio">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>单选题目</span>
+                </div>
+                <label role="radio" aria-checked="true" tabindex="0" class="el-radio is-checked">
+                  <span class="el-radio__input is-checked">
+                    <span class="el-radio__inner"></span>
+                    <input type="radio" tabindex="-1" class="el-radio__original" value="1">
+                  </span>
+                  <span class="el-radio__label">备选项</span>
+                  <span class="marks">说明文字</span>
+                </label>
+                <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                  <span class="el-radio__input">
+                    <span class="el-radio__inner"></span>
+                    <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                  </span>
+                  <span class="el-radio__label">备选项</span>
+                </label>
+              </div>
+            </li>
+            <li class="quCheckbox">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>多选题目</span>
+                </div>
+                <label role="checkbox" class="el-checkbox">
+                  <span aria-checked="mixed" class="el-checkbox__input">
+                    <span class="el-checkbox__inner"></span>
+                    <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                  </span>
+                  <span class="el-checkbox__label">复选框 B</span>
+                  <span class="marks">说明文字</span>
+                </label>
+                <label role="checkbox" class="el-checkbox">
+                  <span aria-checked="mixed" class="el-checkbox__input">
+                    <span class="el-checkbox__inner"></span>
+                    <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                  </span>
+                  <span class="el-checkbox__label">复选框 B</span>
+                </label>
+              </div>
+            </li>
+            <li class="quInput">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>填空题</span>
+                </div>
+                <div class="el-input">
+                  <!----><input autocomplete="off" placeholder="请输入内容" type="text" rows="2" validateevent="true"
+                    class="el-input__inner">
+                </div>
+              </div>
+            </li>
+            <li class="quSelect">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>下拉菜单题目</span>
+                </div>
+                <div class="el-select">
+                  <!---->
+                  <div class="el-input el-input--suffix">
+                    <!----><input autocomplete="off" placeholder="请选择" size="" readonly="readonly" type="text" rows="2"
+                      class="el-input__inner">
+                    <!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i
+                          class="el-select__caret el-input__icon el-icon-arrow-up"></i>
+                        <!----></span>
+                      <!----></span>
+                    <!---->
+                  </div>
+                  <div class="el-select-dropdown el-popper" style="display: none; min-width: 240px;">
+                    <div class="el-scrollbar">
+                      <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -17px; margin-right: -17px;">
+                        <ul class="el-scrollbar__view el-select-dropdown__list" style="position: relative;">
+                          <!---->
+                          <li class="el-select-dropdown__item"><span>黄金糕</span></li>
+                          <li class="el-select-dropdown__item"><span>双皮奶</span></li>
+                          <li class="el-select-dropdown__item"><span>蚵仔煎</span></li>
+                          <li class="el-select-dropdown__item"><span>龙须面</span></li>
+                          <li class="el-select-dropdown__item"><span>北京烤鸭</span></li>
+                          <div class="resize-triggers">
+                            <div class="expand-trigger">
+                              <div style="width: 1px; height: 1px;"></div>
+                            </div>
+                            <div class="contract-trigger"></div>
+                          </div>
+                        </ul>
+                      </div>
+                      <div class="el-scrollbar__bar is-horizontal">
+                        <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                      </div>
+                      <div class="el-scrollbar__bar is-vertical">
+                        <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+                      </div>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="quRadioMore">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>矩阵单选</span>
+                </div>
+                <div class="table">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>很满意</th>
+                        <th>满意</th>
+                        <th>一般</th>
+                        <th>不满意</th>
+                        <th>很不满意</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>选项一</td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>选项二</td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                            <span class="el-radio__input">
+                              <span class="el-radio__inner"></span>
+                              <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                            </span>
+                          </label>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li class="quCheckboxMore">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>矩阵多选</span>
+                </div>
+                <div class="table">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>速度快</th>
+                        <th>颜色好</th>
+                        <th>准确率高</th>
+                        <th>界面美观</th>
+                        <th>就是喜欢</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>选项一</td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>选项二</td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                        <td>
+                          <label role="checkbox" class="el-checkbox">
+                            <span aria-checked="mixed" class="el-checkbox__input">
+                              <span class="el-checkbox__inner"></span>
+                              <input type="checkbox" class="el-checkbox__original" value="复选框 B">
+                            </span>
+                          </label>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li class="quGrade">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>评分题目</span>
+                </div>
+                <label role="radio" aria-checked="true" tabindex="0" class="el-radio is-checked">
+                  <span class="el-radio__input is-checked">
+                    <span class="el-radio__inner"></span>
+                    <input type="radio" tabindex="-1" class="el-radio__original" value="1">
+                  </span>
+                  <span class="el-radio__label">备选项</span>
+                  <span class="marks">分值1分</span>
+                </label>
+                <label role="radio" aria-checked="false" tabindex="0" class="el-radio">
+                  <span class="el-radio__input">
+                    <span class="el-radio__inner"></span>
+                    <input type="radio" tabindex="0" class="el-radio__original" value="2">
+                  </span>
+                  <span class="el-radio__label">备选项</span>
+                  <span class="marks">分值1分</span>
+                </label>
+              </div>
+            </li>
+            <li class="quCascader">
+              <div class="preview">
+                <div class="t">
+                  <i class="required">*</i>
+                  <span>联动题目</span>
+                </div>
+                <span class="el-cascader">
+                  <div class="el-input el-input--suffix">
+                    <!----><input autocomplete="off" placeholder="请选择" readonly="readonly" type="text" rows="2" class="el-input__inner">
+                    <!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i
+                          class="el-input__icon el-icon-arrow-down"></i>
+                        <!----></span>
+                      <!----></span>
+                    <!---->
+                  </div><span class="el-cascader__label"></span>
+                </span>
+              </div>
+            </li>
+          </ul>
+          <div class="btns">
+              <button type="button" class="el-button el-button--primary"><span>提交问卷</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

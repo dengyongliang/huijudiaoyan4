@@ -1,0 +1,434 @@
+@charset "UTF-8";
+.pageQuEdit .tool{
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: rgb(16,54,91); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(16,54,91,1) 0%, rgba(20,90,142,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(16,54,91,1) 0%,rgba(20,90,142,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(16,54,91,1) 0%,rgba(20,90,142,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10365b', endColorstr='#145a8e',GradientType=0 ); /* IE6-9 */
+}
+.pageQuEdit .tool button{
+  background: none;
+  margin: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 30px;
+}
+.pageQuEdit .tool button span{
+  color: #fff;
+  font-size: 15px;
+}
+.pageQuEdit .tool button i{
+  margin-right: 10px;
+  font-size: 19px;
+}
+.pageQuEdit .tool button:hover{
+  background: #fff;
+}
+.pageQuEdit .tool button:hover span,
+.pageQuEdit .tool button:hover i{
+  color: #0b72d1;
+}
+.pageQuEdit .main{
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.pageQuEdit .main .el-aside{
+  width: 150px;
+  background: #fff;
+  padding: 0;
+}
+.pageQuEdit .el-container .el-aside strong{
+  text-align: center;
+  display: block;
+  font-weight: 200;
+  padding: 20px 0;
+  font-size: 15px;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(236,236,238,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(236,236,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(236,236,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececee',GradientType=0 ); /* IE6-9 */
+
+}
+.pageQuEdit .el-container .el-aside ul{
+  padding: 12px;
+  margin: 0px;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 90%, rgba(236,236,238,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 90%,rgba(236,236,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 90%,rgba(236,236,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececee',GradientType=0 ); /* IE6-9 */
+}
+.pageQuEdit .el-container .el-aside ul.pager{
+  background: #fff;
+}
+.pageQuEdit .el-container .el-aside li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+.pageQuEdit .el-container .el-aside button{
+  width: 100%;
+}
+.pageQuEdit .el-container .el-aside ul.pager button i{
+  font-size: 20px;
+}
+.pageQuEdit .el-main{
+  background: #ececee;
+  padding-top: 0px;
+}
+.pageQuEdit .el-main .preview .tools{
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.pageQuEdit .el-main .preview .tools span.item{
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #cccccc;
+  font-size: 12px;
+  padding: 0 5px;
+  color: #999999;
+  cursor: pointer;
+  background: #fff;
+  position: relative;
+  z-index: 10;
+}
+.pageQuEdit .el-main .preview .tools span.item i{
+  margin-right: 10px;
+}
+.pageQuEdit .el-main .preview .tools span.item:hover{
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #b2cbe1;
+  font-size: 12px;
+  padding: 0 5px;
+  color: #0d71d1;
+  cursor: pointer;
+  background: #f5faff;
+}
+.pageQuEdit .el-main .preview .tools span.item:hover ul{
+  display: block;
+}
+.pageQuEdit .el-main .preview .tools span.item ul{
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: -1px;
+  border: 1px solid #b2cbe1;
+  border-bottom: 0px;
+  padding: 0px;
+  background: #fff;
+  display: none;
+}
+.pageQuEdit .el-main .preview .tools span.item li{
+  border-bottom: 1px solid #b2cbe1;
+  color: #0d71d1;
+  text-align: left;
+  list-style: none;
+  padding: 0 0 0 5px;
+}
+.pageQuEdit .el-main .quTitle{
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efeff1',GradientType=0 ); /* IE6-9 */
+}
+.pageQuEdit .el-main .quTitle h1,
+.pageQuEdit .el-main .quTitle h3{
+  padding: 0px;
+  margin: 0px;
+}
+.pageQuEdit .el-main .quTitle h1{
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.pageQuEdit .el-main .quTitle h3{
+  font-size: 20px;
+  font-weight: 200;
+}
+.pageQuEdit .el-main .quTitle .edit {
+  padding: 30px 50px 46px 50px;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 11%, rgba(250,250,250,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 11%,rgba(250,250,250,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 11%,rgba(250,250,250,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+}
+.pageQuEdit .el-main .quTitle .preview{
+  padding: 50px 0;
+  text-align: center;
+  position: relative;
+}
+.pageQuEdit .el-main .quTitle .edit .el-input{
+  padding: 0px;
+}
+.pageQuEdit .el-main .quExplain{
+  background: #fafafa;
+  border-bottom: 1px solid #ececec;
+}
+.pageQuEdit .el-main .quExplain .preview{
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+.pageQuEdit .el-main .quExplain .edit {
+  padding: 30px 50px 46px 50px;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 11%, rgba(250,250,250,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 11%,rgba(250,250,250,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 11%,rgba(250,250,250,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+}
+.pageQuEdit .el-main .quExplain .edit .el-input{
+  padding: 0px;
+}
+.pageQuEdit .el-main .quList{
+  padding: 50px 0 0 0;
+  background: #fafafa;
+  margin: 0px;
+}
+.pageQuEdit .el-main .quList>li{
+  list-style: none;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 25px;
+  padding: 0;
+}
+.pageQuEdit .el-main .quList>li .preview{
+  padding: 0 50px 35px 50px;
+  position: relative;
+}
+.pageQuEdit .el-main .quList>li:nth-last-child(1){
+  border-bottom: none;
+}
+.pageQuEdit .el-main .quList>li .required{
+  color: #f00;
+  font-style: normal;
+}
+.pageQuEdit .el-main .quList>li .t{
+  margin-bottom: 10px;
+}
+.pageQuEdit .el-main .quList .marks{
+  font-size: 12px;
+  color: #747474;
+  display: inline-block;
+  margin-left: 20px;
+}
+.pageQuEdit .el-main .el-input{
+  padding: 15px 0;
+}
+.pageQuEdit .el-main .el-select,
+.pageQuEdit .el-main .el-radio,
+.pageQuEdit .el-main .el-checkbox,
+.pageQuEdit .el-main .el-cascader{
+  display: block;
+  padding: 15px 0;
+}
+.pageQuEdit .el-main .el-cascader .el-input{
+  padding: 0px;
+}
+.pageQuEdit .el-main .quList .table{
+  width: 430px;
+  padding: 15px 0;
+  margin-bottom: 0px;
+}
+.pageQuEdit .el-main .quList table{
+  width: 100%;
+}
+.pageQuEdit .el-main .quList table td,
+.pageQuEdit .el-main .quList table th{
+  width: 16%;
+  text-align: center;
+  font-weight: normal;
+  padding: 5px 0;
+  color: #3d3d3d;
+  font-size: 15px;
+}
+.pageQuEdit .el-main .quList table td{
+  border-bottom: 1px dashed #ececec;
+}
+.pageQuEdit .el-main .quList table tr:nth-last-child(1) td{
+  border:none;
+}
+.pageQuEdit .el-main .quList table .el-radio,
+.pageQuEdit .el-main .quList table .el-checkbox{
+  margin: 0;
+  padding: 0px;
+}
+.pageQuEdit .el-main .quList .edit{
+  padding: 30px 50px 46px 50px;
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 11%, rgba(250,250,250,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 11%,rgba(250,250,250,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 11%,rgba(250,250,250,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+}
+.pageQuEdit .el-main .quList .edit form .el-input,
+.pageQuEdit .el-main .quList .edit form .el-checkbox,
+.pageQuEdit .el-main .quList .edit form .el-select{
+  padding: 0px;
+}
+.pageQuEdit .el-main .quList .edit form table{
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+.pageQuEdit .el-main .quList .edit form th{
+  background: #ececee;
+  height: 40px;
+  padding: 0px;
+}
+.pageQuEdit .el-main .quList .edit form td{
+  border: none;
+  padding: 0 0 15px 0;
+}
+.pageQuEdit .el-main .quList .edit form tbody tr:nth-child(1) td{
+  padding-top: 15px;
+}
+.pageQuEdit .el-main .quList .edit form tbody tr:nth-last-child(1) td{
+  padding-bottom: 0;
+}
+.pageQuEdit .el-main .quList .el-input-add-subtract{
+  position: relative;
+  padding-right: 84px;
+  width: 242px;
+}
+.pageQuEdit .el-main .quList .el-input-add-subtract .el-input{
+  width: 242px;
+}
+.pageQuEdit .el-main .quList .el-input-add-subtract .add,
+.pageQuEdit .el-main .quList .el-input-add-subtract .subtract{
+  width: 41px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #cccccc;
+  display: block;
+  position: absolute;
+  right: 2px;
+  top: 1px;
+  font-size: 23px;
+  cursor: pointer;
+  color: #757575;
+  background: #fff;
+}
+.pageQuEdit .el-main .quList .el-input-add-subtract .add:hover,
+.pageQuEdit .el-main .quList .el-input-add-subtract .subtract:hover{
+  background: #f4f4f6;
+}
+.pageQuEdit .el-main .quList .el-input-add-subtract .add{
+  right: 44px;
+}
+.pageQuEdit .el-main .quList .edit .el-form-item-btn{
+  margin-bottom: 0px;
+}
+.pageQuEdit .el-main .quList .quRadio .edit .el-row,
+.pageQuEdit .el-main .quList .quCheckbox .edit .el-row{
+  margin-bottom: 30px;
+}
+.pageQuEdit .el-main .quList .quRadio .edit .col5 .el-input,
+.pageQuEdit .el-main .quList .quCheckbox .edit .col5 .el-input{
+  width: 245px;
+}
+.pageQuEdit .el-main .quList .quSelect .edit .col1{
+  width: 10%;
+}
+.pageQuEdit .el-main .quList .quSelect .edit .col2{
+  width: 90%;
+  text-align: left;
+  padding-left: 30px;
+}
+.pageQuEdit .el-main .quList .quSelect .edit .el-row{
+  margin-bottom: 30px;
+}
+.pageQuEdit .el-main .quList .quRadioMore .edit td{
+  width: 50%;
+}
+.pageQuEdit .el-main .quList .quRadioMore .edit .el-row{
+  margin-bottom: 30px;
+}
+.pageQuEdit .el-main .quList .quRadioMore .edit .el-input-add-subtract{
+  padding-bottom: 15px;
+}
+.pageQuEdit .el-main .quList .quCheckboxMore .edit td{
+  width: 50%;
+}
+.pageQuEdit .el-main .quList .quCheckboxMore .edit .el-row{
+  margin-bottom: 30px;
+}
+.pageQuEdit .el-main .quList .quCheckboxMore .edit .el-input-add-subtract{
+  padding-bottom: 15px;
+}
+.pageQuEdit .el-main .quList .quGrade .edit .el-row{
+  margin-bottom: 30px;
+}
+.pageQuEdit .el-main .quList .quGrade .edit .col2 .el-input{
+  width: 40px;
+}
+.pageQuEdit .el-main .quList .quGrade .edit .col2 .el-input input{
+  text-align: center;
+}
+.pageQuEdit .el-main .quList .quGrade .edit .col5 .el-input{
+  width: 245px;
+}
+.pageQuEdit .el-main .quList .quInput .edit .el-select{
+  width: 170px;
+  margin-right: 15px;
+}
+.pageQuEdit .el-main .quList .quInput .edit .col4 .el-input{
+  width: 310px;
+}
+.pageQuEdit .el-main .quList .quCascader .edit .el-row{
+  margin-bottom: 30px;
+}
+.pageQuEdit .el-main .quList .quCascader .edit td{
+  width: 25%;
+  padding: 0 5px;
+}
+.pageQuEdit .el-main .quList .quCascader .edit td:nth-child(1){
+  padding-left:0;
+}
+.pageQuEdit .el-main .quList .quCascader .edit td:nth-last-child(1){
+  padding-right:0;
+}
+.pageQuEdit .el-main .quList .quCascader .edit ul{
+  padding: 0px;
+  border: 1px solid #cccccc;
+  background: #fff;
+}
+.pageQuEdit .el-main .quList .quCascader .edit ul li{
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  text-align: left;
+}
+.pageQuEdit .el-main .quList .quCascader .edit ul li input{
+  height: 30px;
+  line-height: 30px;
+}
+.pageQuEdit .el-main .quList .quCascader .edit ul li.add{
+  background: #f4f4f6;
+  color: #727274;
+  text-align: center;
+  border-bottom: none;
+  cursor: pointer;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  
+}
