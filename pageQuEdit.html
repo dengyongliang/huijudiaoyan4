@@ -18,21 +18,23 @@
     <div class="main">
       <section class="el-container">
         <aside class="el-aside">
-          <strong>选择题型</strong>
-          <ul class="quType">
-            <li><button type="button" class="el-button el-button--default"><span>单选题</span></button></li>
-            <li><button type="button" class="el-button el-button--default"><span>多选题</span></button></li>
-            <li><button type="button" class="el-button el-button--default"><span>填空题</span></button></li>
-            <li><button type="button" class="el-button el-button--default"><span>下拉菜单</span></button></li>
-            <li><button type="button" class="el-button el-button--default"><span>矩阵单选</span></button></li>
-            <li><button type="button" class="el-button el-button--default"><span>矩阵多选</span></button></li>
-            <li><button type="button" class="el-button el-button--default"><span>评分题</span></button></li>
-            <li><button type="button" class="el-button el-button--default"><span>联动题</span></button></li>
-          </ul>
-          <ul class="pager">
-            <li><button type="button" class="el-button el-button--default"><i class="el-icon-arrow-up"></i></button></li>
-            <li><button type="button" class="el-button el-button--default"><i class="el-icon-arrow-down"></i></button></li>
-          </ul>
+          <div id="el-aside">
+            <strong>选择题型</strong>
+            <ul class="quType">
+              <li><button type="button" class="el-button el-button--default"><span>单选题</span></button></li>
+              <li><button type="button" class="el-button el-button--default"><span>多选题</span></button></li>
+              <li><button type="button" class="el-button el-button--default"><span>填空题</span></button></li>
+              <li><button type="button" class="el-button el-button--default"><span>下拉菜单</span></button></li>
+              <li><button type="button" class="el-button el-button--default"><span>矩阵单选</span></button></li>
+              <li><button type="button" class="el-button el-button--default"><span>矩阵多选</span></button></li>
+              <li><button type="button" class="el-button el-button--default"><span>评分题</span></button></li>
+              <li><button type="button" class="el-button el-button--default"><span>联动题</span></button></li>
+            </ul>
+            <ul class="pager">
+              <li><button type="button" class="el-button el-button--default"><i class="el-icon-arrow-up"></i></button></li>
+              <li><button type="button" class="el-button el-button--default"><i class="el-icon-arrow-down"></i></button></li>
+            </ul>
+          </div>
         </aside>
         <main class="el-main">
           <div class="quTitle">
@@ -1464,5 +1466,20 @@
       </section>
     </div>
   </div>
+<script>
+  window.onscroll = function () {
+    if (document.body.clientWidth >= 1200) {
+      var t = document.documentElement.scrollTop || document.body.scrollTop;
+      var ele = document.getElementById('el-aside');
+      if (ele) {
+        if (t >= 90) {
+          ele.style="position:fixed;top: 0px;width:150px;"
+        } else {
+          ele.style=""
+        }
+      }
+    }
+  }
+</script>
 </body>
 </html>
