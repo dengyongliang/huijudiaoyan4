@@ -80,6 +80,7 @@
   padding-top: 0px;
 }
 .pageQuEdit .el-main .preview .tools{
+  display: none;
   position: absolute;
   right: 15px;
   bottom: 15px;
@@ -131,6 +132,9 @@
   text-align: left;
   list-style: none;
   padding: 0 0 0 5px;
+}
+.pageQuEdit .el-main .preview:hover .tools{
+	display: block;
 }
 .pageQuEdit .el-main .quTitle{
   background: rgb(255,255,255); /* Old browsers */
