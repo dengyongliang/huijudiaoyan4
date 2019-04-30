@@ -173,6 +173,10 @@
 .pageQuEdit .el-main .quTitle .edit .el-input{
   padding: 0px;
 }
+.pageQuEdit .el-main .quBranch{
+  text-align: center;
+  padding: 20px 0;
+}
 .pageQuEdit .el-main .quExplain{
   background: #fafafa;
   border-bottom: 1px solid #ececec;
