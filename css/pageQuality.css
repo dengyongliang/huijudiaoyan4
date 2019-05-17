@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.pageQuality .pageT{
+  padding: 27px 0px;
+  font-size: 16px;
+}
+.pageQuality .pageT .button-back{
+  margin-right: 35px;
+}
+.pageQuality .pageT>span{
+  padding: 0 20px 0 0;
+  font-weight: 200;
+}
+.pageQuality .pageT .el-button--default,
+.pageQuality .operate .el-button--default{
+  background: none;
+  border-color: #0e72d0;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 40px;
+}
+.pageQuality .pageT .el-button--default span,
+.pageQuality .operate .el-button--default span{
+  color: #0e72d0;
+}
+.pageQuality .operate{
+  height: 100px;
+  line-height: 100px;
+  padding: 0 30px;
+  border-bottom: 1px solid #ececee;
+  background: #fff;
+}
+.pageQuality .operate .col-left strong{
+  display: inline-block;
+  margin-right: 40px;
+  font-weight: 200;
+}
+.pageQuality .operate .col-left span{
+  display: inline-block;
+  margin-right: 25px;
+  font-weight: 200;
+}
+.pageQuality .operate .col-right{
+  text-align: right;
+}
+
+.pageQuality .table {
+  background: #fff;
+  padding: 30px;
+  position: relative;
+}
+.pageQuality .table .img{
+  width: 271px;
+  height: 439px;
+  background: #ececee;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.pageQuality .table .table-right{
+  margin-left: 300px;
+}
+.pageQuality .table.screenShot{
+  text-align: center;
+}
+.pageQuality .table.screenShot .img{
+  position: static;
+  display: inline-block;
+  margin: 0 10px;
+}
+.pageQuality .btn{
+  text-align: center;
+  padding: 0 0 30px 0;
+  background: #fff;
+}
+.pageQuality .btn .el-button{
+  width: 124px;
+}
+.pageQuality .btn .el-button--primary{
+  background: #0d71d1;
+  border-color: #0d71d1;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+}
